@@ -7,6 +7,8 @@ void swap(int arr[], int i, int j) {
   arr[i] = temp;
 }
 
+// At the end of algorithm, low indicates starting of 1s and high indicates starting of 2s
+
 void dnfSort (int arr[], int n) {
   int low = 0, mid = 0, high = n-1;
 
