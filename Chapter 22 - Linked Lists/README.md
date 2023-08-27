@@ -9,3 +9,4 @@
 7. Find intersection point of two lists    *`!medium`*
 8. Merge two sortd lists
 9. Circular linked list
+10. Put odd position nodes after even position nodes
