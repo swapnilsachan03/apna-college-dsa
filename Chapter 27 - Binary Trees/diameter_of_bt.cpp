@@ -23,6 +23,8 @@ int calcHeight (TreeNode* root) {
   return max(lHeight, rHeight) + 1;
 }
 
+// Diameter can either pass through the root node or not. If it does, we'll include the root node and calculate the diameter by adding the left and right subtrees' heights, along with the root node, else we'll take the maximum of left or right subtrees' diameter.
+
 int calcDiameter (TreeNode* root) {
   if(root == nullptr) return 0;
 
@@ -37,7 +39,10 @@ int calcDiameter (TreeNode* root) {
 }
 
 int calcDiameterOpt (TreeNode* root, int* height) {
-  if(root == nullptr) return 0;
+  if(root == nullptr) {
+    *height = 0;
+    return 0;
+  }
 
   int lh = 0, rh = 0;
   int lDiameter = calcDiameterOpt(root->left, &lh);

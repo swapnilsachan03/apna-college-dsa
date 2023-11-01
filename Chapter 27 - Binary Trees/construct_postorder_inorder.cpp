@@ -1,7 +1,7 @@
 /* Algorithm:
 
 -> Start from end of postorder & pick an element to create a node
--> Decrement preorder index
+-> Decrement postorder index
 -> Search the picked element's position in inorder
 -> Call to build right subtree from inorder's position + 1 to n
 -> Call to build left subtree from inorder's 0 to position - 1
