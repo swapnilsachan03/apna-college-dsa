@@ -15,5 +15,7 @@
 13. Left view of binary tree
 14. Distance between two nodes in a binary tree
 15. Flatten a binary tree
+16. Nodes at distance k in binary tree
+17. Lowest common ancestor of two nodes    *`!important concept`*
 
 We cannot build a binary tree from given preorder & postorder sequences until & unless it is a complete binary tree
