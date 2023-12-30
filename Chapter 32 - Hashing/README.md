@@ -7,3 +7,5 @@
 3. Vertical order traversal of a binary tree
 4. Count number of subarrays with sum 0
 5. Hashing - sliding window technique
+6. Top k most frequent elements
+7. Sudoku solver    *`!medium`*
