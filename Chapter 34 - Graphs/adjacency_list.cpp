@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-const int N = 1e5 + 2, MOD = 1e9 + 7;
+const int N = 1e5 + 2;
 vector<int> adjl[N];      // Array of vectors
 
 int main()
