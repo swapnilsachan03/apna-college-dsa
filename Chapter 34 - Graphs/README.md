@@ -8,6 +8,9 @@
 4. Depth first search (DFS)
 5. Topological sort
 6. Cycle detection in an undirected graph
+7. Cycle detection in a directed graph
+8. Connected components
+9. Number of ways in which two unconnected people can be chosen
 
 <!-- Sample graph:
 

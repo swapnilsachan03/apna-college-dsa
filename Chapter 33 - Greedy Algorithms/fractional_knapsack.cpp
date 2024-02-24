@@ -28,7 +28,7 @@ int main()
 
   sort(items.begin(), items.end(), compare);
 
-  int ans = 0;
+  double ans = 0;
   for (int i = 0; i < n; i++) {
     if (w >= items[i].second) {
       ans += items[i].first;
