@@ -8,9 +8,12 @@
 4. Depth first search (DFS)
 5. Topological sort
 6. Cycle detection in an undirected graph
-7. Cycle detection in a directed graph
-8. Connected components
+7. Cycle detection in a directed graph    *`!concept`*
+8. Connected components    *`!medium`*
 9. Number of ways in which two unconnected people can be chosen
+10. Biparite graph
+11. Disjoint Set Union (DSU / Union Find)
+12. Cycle detection in an undirected graph using DSU    *`!concept`*
 
 <!-- Sample graph:
 
