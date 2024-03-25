@@ -14,6 +14,8 @@
 10. Biparite graph
 11. Disjoint Set Union (DSU / Union Find)
 12. Cycle detection in an undirected graph using DSU    *`!concept`*
+13. Kruskal's algorithm    *`!concept`*
+14. Prim's algorithm    *`!concept`*
 
 <!-- Sample graph:
 
